@@ -1,0 +1,15 @@
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.csproj.AssemblyReference.cache
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.AssemblyInfoInputs.cache
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.AssemblyInfo.cs
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.csproj.CoreCompileInputs.cache
+C:\Projects\BudgetTracker\BudgetTracker.Application\bin\Debug\net8.0\BudgetTracker.Application.deps.json
+C:\Projects\BudgetTracker\BudgetTracker.Application\bin\Debug\net8.0\BudgetTracker.Application.dll
+C:\Projects\BudgetTracker\BudgetTracker.Application\bin\Debug\net8.0\BudgetTracker.Application.pdb
+C:\Projects\BudgetTracker\BudgetTracker.Application\bin\Debug\net8.0\BudgetTracker.Domain.dll
+C:\Projects\BudgetTracker\BudgetTracker.Application\bin\Debug\net8.0\BudgetTracker.Domain.pdb
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTr.359E2BA9.Up2Date
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.dll
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\refint\BudgetTracker.Application.dll
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.pdb
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\ref\BudgetTracker.Application.dll
