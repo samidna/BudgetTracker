@@ -1,0 +1,5 @@
+BudgetTracker.WebAPI/appsettings.json
+BudgetTracker.WebAPI/appsettings.Development.json
+BudgetTracker.WebAPI/bin/
+BudgetTracker.WebAPI/obj/
+.vs/
