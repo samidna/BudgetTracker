@@ -13,3 +13,4 @@ C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTrack
 C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\refint\BudgetTracker.Application.dll
 C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.pdb
 C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\ref\BudgetTracker.Application.dll
+C:\Projects\BudgetTracker\BudgetTracker.Application\obj\Debug\net8.0\BudgetTracker.Application.sourcelink.json

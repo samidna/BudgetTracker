@@ -10,3 +10,4 @@ C:\Projects\BudgetTracker\BudgetTracker.Domain\obj\Debug\net8.0\BudgetTracker.Do
 C:\Projects\BudgetTracker\BudgetTracker.Domain\obj\Debug\net8.0\refint\BudgetTracker.Domain.dll
 C:\Projects\BudgetTracker\BudgetTracker.Domain\obj\Debug\net8.0\BudgetTracker.Domain.pdb
 C:\Projects\BudgetTracker\BudgetTracker.Domain\obj\Debug\net8.0\ref\BudgetTracker.Domain.dll
+C:\Projects\BudgetTracker\BudgetTracker.Domain\obj\Debug\net8.0\BudgetTracker.Domain.sourcelink.json

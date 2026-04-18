@@ -17,3 +17,4 @@ C:\Projects\BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\net8.0\BudgetTr
 C:\Projects\BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\net8.0\ref\BudgetTracker.Infrastructure.dll
 C:\Projects\BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\net8.0\BudgetTracker.Application.dll
 C:\Projects\BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\net8.0\BudgetTracker.Application.pdb
+C:\Projects\BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\net8.0\BudgetTracker.Infrastructure.sourcelink.json
