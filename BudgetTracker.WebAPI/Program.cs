@@ -4,6 +4,7 @@ using BudgetTracker.Application.Validations.Transaction;
 using BudgetTracker.Domain.Entities;
 using BudgetTracker.Infrastructure.Data;
 using BudgetTracker.Infrastructure.Repositories;
+using BudgetTracker.Infrastructure.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -85,6 +86,8 @@ builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddHttpClient<AIAdvisorService>();
+builder.Services.AddScoped<IAiAdvisorService, AIAdvisorService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddValidatorsFromAssemblyContaining<CreateTransactionValidator>();
 

@@ -1,6 +1,7 @@
 ﻿using BudgetTracker.Application.DTOs.Transaction;
 using BudgetTracker.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace BudgetTracker.WebAPI.Controllers;
 [Route("api/[controller]")]
@@ -17,18 +18,23 @@ public class TransactionsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(CreateTransactionDto dto)
     {
-        var userId = "test-user-123";
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (string.IsNullOrEmpty(userId))
+        {
+            return Unauthorized("User not found");
+        }
 
         var result = await _transactionService.CreateTransactionAsync(dto, userId);
 
-        if (result) return Ok("Tranzaksiya uğurla yaradıldı");
-        return BadRequest("Xəta baş verdi");
+        if (result) return Ok("Transaction successfullt created");
+        return BadRequest("Error");
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var userId = "test-user-123";
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         var transactions = await _transactionService.GetAllTransactionsAsync(userId);
         return Ok(transactions);
     }
